@@ -204,7 +204,7 @@ em { font-style: italic; }
 /* Contact */
 .contact { background: var(--cream); }
 .contact .eyebrow { color: var(--clay); }
-.people { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--s-5); }
+.people { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--s-5); }
 .person { border-top: 2px solid var(--forest); padding-top: var(--s-4); }
 .person h3 { font-size: 1.55rem; margin-bottom: 4px; }
 .role { color: var(--muted); font-size: .95rem; line-height: 1.5; margin-bottom: var(--s-3); min-height: 3em; }
