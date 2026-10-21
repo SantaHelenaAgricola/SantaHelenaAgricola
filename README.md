@@ -32,7 +32,7 @@ Este documento registra **o que foi decidido e por quê**, para quem for dar man
 ├── images/
 │   ├── logo.png        logo original da empresa
 │   ├── favicon.svg
-│   └── campo/          14 fotos da galeria "Em campo" (350×223 px)
+│   └── campo/          13 fotos da galeria "Em campo" (350×223 px)
 ├── .nojekyll           faz o GitHub Pages servir os arquivos como estão
 └── README.md
 ```
