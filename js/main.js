@@ -16,5 +16,13 @@
     if (e.target.tagName === 'A') setOpen(false);
   });
 
+  var rail = document.querySelector('.rail');
+  document.querySelectorAll('.rail-btn').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var step = rail.querySelector('li').offsetWidth + 22;
+      rail.scrollBy({ left: Number(btn.dataset.dir) * step * 2, behavior: 'smooth' });
+    });
+  });
+
   document.getElementById('ano').textContent = new Date().getFullYear();
 })();
